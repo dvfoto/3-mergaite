@@ -62,7 +62,6 @@ header {
     display: inline-block;
     width: 100%;
     margin-top: 20px;    
-    float: left;
        
 
 
@@ -98,7 +97,6 @@ a{
     padding: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    float: left;
     border: 3px solid transparent; 
     border-radius: 20px;
 
@@ -162,13 +160,18 @@ p{
 }
 
 section > img{ 
+    animation-duration: 3s;
+    
+    animation: mymove 5s infinite;
     width: 50%;
     display: inline-block;
-    float: left;
     margin-left: 20px;
-    
-    
-    
+      
+}
 
+section > img:hover
+{
+    
+    border: 2px solid #1ee969;
 
 }
