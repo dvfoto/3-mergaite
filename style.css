@@ -74,13 +74,10 @@ header > a > img{
      
     
 }
-header > a  img:hover {
+main > header > a  img:hover {
 
-    border: 4px solid #b8b8b8 ;
-    border-radius: 20px;
-    box-shadow: 
-    -5px -5px 10px #9ea09f,
-    5px 5px 10px rgba(70, 70, 70, 0.12);
+    border: 1px solid #b8b8b8 ;
+   
 }
 
 
@@ -107,8 +104,24 @@ a{
 
 
 }
+a:last-child
+{
+    border-color: #ff3574;
+     margin-left: 80px; 
+}
+a:last-child:hover
+{
+    color: #ff3574;
+    text-decoration: underline;
+    border: 4px solid #fc125c ;
+    border-radius: 20px;
+    box-shadow: 
+    -5px -5px 10px #ff3574,
+    5px 5px 10px rgba(70, 70, 70, 0.12);
+}
 
-a:hover{
+
+main > header > nav > a:hover{
     color: #1ee969;
     text-decoration: underline;
     border: 4px solid #1ee969 ;
